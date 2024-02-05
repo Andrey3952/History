@@ -18,6 +18,7 @@ $(document).ready(function(){
 
         } else {
 
+
             $(".arrowUP").hide();
             $(".arrowDown").show();
             $(".pointsClass").hide();
@@ -32,6 +33,9 @@ $(document).ready(function(){
         var thisLiId = $(this).attr("id");
          window.location.href = 'Pages/'+clicThisH2CutId+"/"+thisLiId+".html";
     });
+
+
+
 });
 // hide - Приховати
 // show - Показатти
